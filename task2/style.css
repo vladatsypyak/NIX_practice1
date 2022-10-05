@@ -1,0 +1,31 @@
+
+.wrapper {
+    display: flex;
+    border: 2px black solid;
+    height: 80px;
+}
+
+.item {
+    border: 2px black solid;
+
+}
+
+.five {
+    align-self: flex-end;
+}
+
+.one {
+    align-self: flex-end;
+}
+
+.two {
+    align-self: center;
+}
+
+.three {
+    align-self: start;
+}
+
+.four {
+    align-self: center;
+}

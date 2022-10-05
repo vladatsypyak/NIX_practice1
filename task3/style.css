@@ -1,0 +1,26 @@
+
+.wrapper {
+    padding: 10px;
+    display: flex;
+    border: 2px black solid;
+    height: 150px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.item {
+    border: 2px black solid;
+}
+
+.five {
+    align-self: flex-end;
+}
+
+.one {
+    align-self: flex-start;
+}
+
+.three {
+    align-self: stretch;
+}

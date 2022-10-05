@@ -1,0 +1,37 @@
+
+.wrapper {
+    padding: 20px;
+    display: flex;
+    border: 2px black solid;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: column-reverse;
+    height: 140px;
+}
+
+.item {
+    border: 2px black solid;
+    padding: 15px;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.five {
+    order: 4;
+}
+
+.one {
+    order: 4;
+}
+
+.two {
+    order: 5;
+}
+
+.three {
+    order: 2;
+}
+
+.four {
+    order: 5;
+}
